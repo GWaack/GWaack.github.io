@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #f7f7f7;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #70757a;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #2c353d;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -76,10 +76,12 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
+    margin-left: 50px;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    margin-left: 50px;
 }
 
 .contact-info ul li,
@@ -101,6 +103,7 @@ body {
 
 .skills ul {
     padding-top: 1.5rem;
+    margin-left: 50px;
 }
 .skills ul li p {
     padding: .4rem 0;
@@ -121,21 +124,13 @@ body {
     text-transform: uppercase;
 }
 
-.referance-profession {
-    font-size: 16px;
-    color: #d6dbdfaf;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-    padding-bottom: .4rem;
-}
-
 
 .right-section-contents {
     padding: 2rem 2rem;
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #7A8C96;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -156,7 +151,7 @@ body {
     color: #F1F8FD;
 }
 
-.experience-contents,
+.competence-contents,
 .education-contents,
 .awards-contents {
     display: grid;
@@ -165,7 +160,7 @@ body {
     color: #F1F8FD;
 }
 
-.exp-company-name,
+.comp-name,
 .education-school-name,
 .awards-company-name {
     font-size: 25px;
@@ -176,7 +171,7 @@ body {
     padding-bottom: .4rem;
 }
 
-.exp-time-period,
+.comp-plus,
 .educationp-time-period,
 .awards-time-period {
     font-size: 18px;
@@ -184,7 +179,6 @@ body {
     line-height: 2rem;
 }
 
-.exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
@@ -195,7 +189,6 @@ body {
     padding-bottom: .4rem;
 }
 
-.exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
@@ -207,7 +200,7 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
-    .experience-contents,
+    .competence-contents,
     .education-contents,
     .awards-contents {
         grid-template-columns: repeat(1, 1fr);
@@ -273,19 +266,18 @@ body {
         line-height: 1.5rem;
     }
 
-    .exp-company-name,
+    .comp-name,
     .education-school-name,
     .awards-company-name {
         font-size: 18px;
     }
 
-    .exp-time-period,
+    .comp-plus,
     .educationp-time-period,
     .awards-time-period {
         font-size: 16px;
     }
 
-    .exp-position,
     .education-subject,
     .awards-name {
         font-size: 18px;
